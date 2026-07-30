@@ -33,13 +33,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rifqi96/hostinger-mcp.git"
+    "url": "git+https://github.com/idugeni/hostinger-mcp.git"
   },
-  "homepage": "https://github.com/rifqi96/hostinger-mcp#readme",
+  "homepage": "https://github.com/idugeni/hostinger-mcp#readme",
   "bugs": {
-    "url": "https://github.com/rifqi96/hostinger-mcp/issues"
+    "url": "https://github.com/idugeni/hostinger-mcp/issues"
   },
-  "author": "Rifqi",
+  "author": "idugeni",
   "license": "MIT",
   "keywords": [
     "mcp",
