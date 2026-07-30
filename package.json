@@ -1,0 +1,74 @@
+{
+  "name": "hostinger-mcp",
+  "version": "2.0.0",
+  "description": "The most complete MCP server for Hostinger — 280+ tools, OAuth, HTTP transport, retry/cache, batch operations, deploy automation",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist/",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "bin": {
+    "hostinger-mcp": "./dist/index.js",
+    "hostinger-api-mcp": "./dist/bin/hostinger-api-mcp.js",
+    "hostinger-billing-mcp": "./dist/bin/hostinger-billing-mcp.js",
+    "hostinger-dns-mcp": "./dist/bin/hostinger-dns-mcp.js",
+    "hostinger-domains-mcp": "./dist/bin/hostinger-domains-mcp.js",
+    "hostinger-vps-mcp": "./dist/bin/hostinger-vps-mcp.js",
+    "hostinger-hosting-mcp": "./dist/bin/hostinger-hosting-mcp.js",
+    "hostinger-wordpress-mcp": "./dist/bin/hostinger-wordpress-mcp.js",
+    "hostinger-mail-mcp": "./dist/bin/hostinger-mail-mcp.js",
+    "hostinger-reach-mcp": "./dist/bin/hostinger-reach-mcp.js",
+    "hostinger-ecommerce-mcp": "./dist/bin/hostinger-ecommerce-mcp.js",
+    "hostinger-agency-mcp": "./dist/bin/hostinger-agency-mcp.js",
+    "hostinger-horizons-mcp": "./dist/bin/hostinger-horizons-mcp.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rifqi96/hostinger-mcp.git"
+  },
+  "homepage": "https://github.com/rifqi96/hostinger-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/rifqi96/hostinger-mcp/issues"
+  },
+  "author": "Rifqi",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "hostinger",
+    "hpanel",
+    "vps",
+    "hosting",
+    "domains",
+    "dns",
+    "ai-agent",
+    "model-context-protocol",
+    "oauth",
+    "deploy",
+    "wordpress",
+    "email",
+    "ecommerce",
+    "claude",
+    "cursor",
+    "kiro"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.0"
+  }
+}

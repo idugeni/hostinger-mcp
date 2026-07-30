@@ -1,0 +1,11 @@
+src/
+.github/
+*.ts
+!dist/**
+tsconfig.json
+.gitignore
+.env
+*.env.local
+test-*
+count-*
+node_modules/
