@@ -1,5 +1,5 @@
 {
-  "name": "hostinger-mcp",
+  "name": "hostinger-mcp-server",
   "version": "2.0.0",
   "description": "The most complete MCP server for Hostinger — 280+ tools, OAuth, HTTP transport, retry/cache, batch operations, deploy automation",
   "type": "module",
